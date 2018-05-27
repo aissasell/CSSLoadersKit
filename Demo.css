@@ -1,7 +1,5 @@
 body {
     font-family: sans-serif;
-    padding: 0;
-    margin: 0;
     text-align: center;
     background: #000;
     color: #FFF;
@@ -25,6 +23,11 @@ section {
 
 span {
     margin: auto;
+}
+
+pre {
+    margin: auto !important;
+    padding: 0 50px 0 0 !important;
 }
 
 p {
