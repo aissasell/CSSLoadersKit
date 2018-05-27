@@ -1,0 +1,23 @@
+.circle-loader-4 {
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+    animation: spin 1.5s linear infinite;
+    -webkit-animation: spin 1.5s linear infinite;
+}
+.circle-loader-4:after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    left: 5px;
+    bottom: 5px; 
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+    opacity: 0.6;
+    animation: spin 1.5s linear infinite;
+    -webkit-animation: spin 1.5s linear infinite;
+}

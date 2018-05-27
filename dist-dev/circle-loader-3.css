@@ -1,9 +1,9 @@
-.circle-loader-1 {
+.circle-loader-3 {
     border-radius: 50px;
     border: 6px solid transparent;
 }
 
-.circle-loader-1:after {
+.circle-loader-3:after {
     content: '';
     position: absolute;
     top: -6px; 
@@ -13,12 +13,7 @@
     border-radius: 50px;
     border: 6px solid transparent;
     border-top-color: #FFF;
-    border-right-color: #FFF;
+    border-bottom-color: #FFF;
     animation: spin 1s linear infinite;
     -webkit-animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    0%{ transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }
