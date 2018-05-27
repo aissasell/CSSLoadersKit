@@ -1,0 +1,13 @@
+{
+    "name": "aissasell/css-loaders-kit",
+    "description": "A kit of css loaders that you can use in your project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salem Ben Aissa",
+            "email": "aissasell@gmail.com"
+        }
+    ],
+    "require": {}
+}
