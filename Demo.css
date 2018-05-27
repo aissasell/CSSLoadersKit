@@ -10,8 +10,23 @@ body {
 h1 {
     font-size: 6em;
 }
+h2 {
+    font-size: 4em;
+}
 
 section {
     height: 500px;
-    vertical-align: middle;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    border-bottom: 1px solid #FFF;
+}
+
+
+span {
+    margin: auto;
+}
+
+p {
+    margin: 0;
 }
